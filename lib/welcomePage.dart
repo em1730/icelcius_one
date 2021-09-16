@@ -48,7 +48,7 @@ Widget _title() {
 
 Widget _submitButton() {
   return InkWell(
-     onTap: _checkIfFirstLogin,
+    //  onTap: _checkIfFirstLogin,
     child: Container(
       // width: MediaQuery.of(context).size.width,
       padding: EdgeInsets.symmetric(vertical: 10),
